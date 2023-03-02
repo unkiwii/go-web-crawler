@@ -1,3 +1,14 @@
 # Web Crawler
 
-Run with `go run ./cmd/crawl [url to search]`
+## Run
+
+```
+$ go run ./cmd/crawl [url to crawl]
+```
+
+## Build & Run
+
+```
+$ go build ./cmd/crawl
+$ ./crawl [url to crawl]
+```
